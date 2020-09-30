@@ -21,8 +21,8 @@ window.addEventListener('load', () => {
   totalPopulationList = document.querySelector('#totalPopulationList');
 
   // prettier-ignore
-  totalPopulationFavorites = 
-  document.querySelector('#totalPopulationFavorites');
+  totalPopulationFavorites =
+    document.querySelector('#totalPopulationFavorites');
 
   numberFormat = Intl.NumberFormat('pt-BR');
 
@@ -31,7 +31,7 @@ window.addEventListener('load', () => {
 });
 
 async function fetchCountriesAsync() {
-  const res = await fetch('http://restcountries.eu/rest/v2/all');
+  const res = await fetch('https://restcountries.eu/rest/v2/all');
   const json = await res.json();
   console.log(json);
   allCountries = json.map((country) => {
