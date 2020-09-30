@@ -1,0 +1,62 @@
+body {
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.country-container {
+  display: flex;
+  justify-content: center;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.country-list,
+.favorite-list {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+.perfil {
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.redes-sociais img {
+  height: auto;
+  width: 25px;
+}
+
+.redes-sociais a {
+  text-decoration: none;
+}
